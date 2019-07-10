@@ -1,0 +1,19 @@
+Name: ocaml-playground
+Version: 0.1
+Synopsis: OCaml playground
+Authors: Spyder team <spyder@onna.com>
+License: LGPL with OCaml linking exception
+Description: OCaml scripts and examples
+
+
+OASISFormat: 0.4
+BuildTools: ocamlbuild
+Plugins: META (0.4), DevFiles (0.4)
+
+
+Executable "list_links"
+  Path: src
+  MainIs: list_links.ml
+  CompiledObject: best
+  BuildDepends:
+    mechaml
