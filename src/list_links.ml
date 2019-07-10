@@ -1,8 +1,3 @@
-(* This file is in the public domain *)
-
-(** Connect to https://ocaml.org/index.fr.html and download all the png images
-   of the page in /tmp *)
-
 open Mechaml
 module M = Agent.Monad
 open M.Infix
